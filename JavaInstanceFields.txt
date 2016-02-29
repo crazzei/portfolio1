@@ -1,0 +1,15 @@
+/**
+ * Created by Daniel on 2/17/2016.
+ */
+
+
+public class Employee {
+
+    //fields
+
+    public static String employeeName = "LIT";
+    public static String employeeNumber = "645-L";
+    public static String hireDate = "11/11/2011";
+    public static  String supName = "super lit";
+    public static String supNumber = "665-L";
+    public static String supHireDate = "12/12/2012";
