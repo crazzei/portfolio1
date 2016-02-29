@@ -2,8 +2,13 @@
  * Created by Daniel on 2/12/2016.
  */
 
-import java.util.Scanner;
-import java.io.*;
+//this import statement is here so that a scanner object can be created
+import java.util.Scanner
+
+
+
+
+
 public class LargerThanN {
     public static void main(String[] args) {
         Scanner key = new Scanner(System.in);
