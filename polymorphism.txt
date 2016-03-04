@@ -1,0 +1,16 @@
+public class VehicleDriver {
+    public static void main(String[] args) {
+        Car data1 = new Car();
+        Truck data2 = new Truck();
+
+        Vehicle v = new Vehicle();
+        Vehicle c = (Vehicle) data1;
+        Vehicle t = (Vehicle)data2;
+
+        System.out.println(v.accelerate());
+        System.out.println(((Vehicle) c).accelerate());
+        System.out.println(((Vehicle) t).accelerate());
+
+
+    }
+}
