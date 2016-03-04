@@ -1,0 +1,23 @@
+public class Simple {
+
+    public Simple() {
+        this(null);
+    }
+
+    public Simple(Resource r) {
+        this(r, null);
+    }
+
+    public Simple(Resource r1, Resource r2) {
+        
+        if (r1 == null) {
+            r1 = new Resource();
+        }
+        if (r2 == null) {
+            r2 = new Resource();
+        }
+
+       
+    }
+
+}
