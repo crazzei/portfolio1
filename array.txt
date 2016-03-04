@@ -1,0 +1,29 @@
+import java.util.Scanner;
+import java.io.*;
+
+public class ArrayPractice  {
+
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner key = new Scanner(System.in);
+        double[] numbers = new double[10];
+        File file = new File("C:\\users\\daniel\\desktop\\java.example.txt");
+        PrintWriter print = new PrintWriter("C:\\users\\daniel\\desktop\\example.txt");
+        print.println("These are my number sirrrrrr");
+        for (int i = 0; i < numbers.length ; i++) {
+            System.out.println("Enter number #" + i);
+            double input = key.nextDouble();
+            numbers[i] = input;
+            print.println(numbers[i]);
+            input = 0;
+
+
+
+
+        }
+        for (int i = 0; i < numbers.length ; i++) {
+            System.out.println(numbers[i]);
+        }
+        print.close();
+
+    }
+}
