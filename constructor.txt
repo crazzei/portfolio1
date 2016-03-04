@@ -1,0 +1,6 @@
+ //constructor
+
+    public Chat(double userAreaCode, double time) {
+        this.userAreaCode = userAreaCode;
+        this.time = time;
+    }
