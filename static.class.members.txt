@@ -1,0 +1,23 @@
+public static String getSupHireDate() {
+        return supHireDate;
+    }
+
+    public static String getSupName() {
+        return supName;
+    }
+
+    public static String getSupNumber() {
+        return supNumber;
+    }
+
+    public static String getEmployeeName() {
+        return employeeName;
+    }
+
+    public static String getEmployeeNumber() {
+        return employeeNumber;
+    }
+
+    public static String getHireDate() {
+        return hireDate;
+    }
