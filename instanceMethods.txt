@@ -1,0 +1,20 @@
+ //accessors
+
+    public double getTime() {
+        return time;
+    }
+
+    public double getUserAreaCode() {
+        return userAreaCode;
+    }
+
+
+    //mutators
+
+    public void setAreaCode(double[] areaCode) {
+        this.areaCode = areaCode;
+    }
+
+    public void setRate(double[] rate) {
+        this.rate = rate;
+    }
