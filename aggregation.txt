@@ -1,0 +1,12 @@
+public class Hot3 {
+  public static double method(double a, double b) {
+        double sum = a + b;
+        return sum;
+
+    }
+    public  static  double method(double a, double b, double c) {
+        double sum = a + b + c;
+        return sum;
+
+    }
+}
