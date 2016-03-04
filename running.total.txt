@@ -1,0 +1,23 @@
+private double count = 0;
+    private double puter = 0;
+
+ public void btnClick() {
+        String correct;
+        random = (int )((Math.random() * 2 + 1)- 1);
+        String answer;
+
+        if(random == 0) {
+            answer = "Heads";
+          //  image.setImage(heads);
+            if (r1.isSelected()) {
+                count += 1;
+                correct = "Correct";
+            }
+            else {
+                puter += 1;
+                correct = "incorrect";
+            }
+
+
+        }
+}
