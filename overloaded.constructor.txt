@@ -21,3 +21,8 @@ public class Simple {
     }
 
 }
+
+//overloaded method
+
+int mymethod(int a, int b)
+int mymethod(float var1, float var2)
