@@ -1,0 +1,38 @@
+//while 
+
+while(startingNumberOfOrganism < 2)
+ 				{
+ 					System.out.println("Invalid Input, enter number greater than 2");
+ 					System.out.println("starting number of organisms:");
+ 					startingNumberOfOrganism = key.nextInt();
+ 					
+ 				}
+
+//do while
+
+
+
+ 				do {
+ 					System.out.println("Invalid Input, enter number greater than 2");
+ 					System.out.println("starting number of organisms:");
+ 					startingNumberOfOrganism = key.nextInt();
+ 					
+ 				}
+while(startingNumberOfOrganism < 2);
+
+//for
+
+for(int x = 1; x <= daysOverMultiplying; x++)
+ 				{
+ 					day++;
+ 					if(day > 1)
+ 					{
+ 						dailyPopulation += (percentIncrease * dailyPopulation);
+ 						System.out.println(day + "             " + formatter.format(dailyPopulation));
+ 					}
+ 					else
+ 					{
+ 						System.out.println(day + "             " + formatter.format(dailyPopulation));
+ 					}
+ 					
+ 				} 
