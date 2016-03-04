@@ -1,0 +1,9 @@
+public  String toString() {
+
+        return  "LandTract: length = " + length + " width = " + width + "area = " + getArea();
+    }
+    public boolean equals(LandTract tract2)
+    {
+        return this.getArea() == tract2.getArea();
+
+    }
